@@ -1,0 +1,63 @@
+.App {
+    font-family: sans-serif;
+  }
+  
+  .todoItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #eee;
+    width: 200px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .todoItem:hover .close {
+    visibility: visible;
+  }
+  
+  .checkbox {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .check {
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+  }
+  
+  .text {
+    margin: 0 10px;
+  }
+  
+  .crossed {
+    text-decoration: line-through;
+  }
+  
+  input {
+    margin: 0 10px;
+  }
+  
+  form {
+    display: inline-block;
+  }
+  button {
+    display: inline-block;
+  }
+  
+  .list {
+    display: block;
+    margin-top:40px;
+  }
+  
+  .close {
+    position: absolute;
+    right: 10px;
+    visibility: hidden;
+    cursor: pointer;
+  }
